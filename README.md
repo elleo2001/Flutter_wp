@@ -11,7 +11,7 @@ git clone https://github.com/elleo2001/Flutter_wp.git
 
 Acesse o diretório do aplicativo:
 ```sh
-cd nome-do-repositorio
+cd Flutter_wp
 ```
 
 Instale as dependências do Flutter:
