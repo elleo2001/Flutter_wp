@@ -3,6 +3,8 @@ import 'package:flutter_application_1/post.dart';
 import 'wp_api.dart';
 import 'package:html/parser.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+import 'package:intl/intl.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -76,6 +78,13 @@ class MyHomePage extends StatelessWidget {
                                           fontSize: 22,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.blueAccent),
+                                    ),
+                                    Text(
+                                      'Publicado em ${DateFormat('dd/MM/yyyy - hh:mm').format(DateTime.parse(e['date']))} por ${e['_embedded']['author'][0]['name']}',
+                                      style: const TextStyle(
+                                        fontSize: 16,
+                                        color: Colors.grey,
+                                      ),
                                     ),
                                     Text(
                                       parse(e['content']['rendered'])
