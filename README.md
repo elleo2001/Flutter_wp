@@ -4,7 +4,7 @@
 Este é um aplicativo Flutter que consome a API do Wordpress para exibir uma lista de postagens em uma tela inicial. Clicando em um dos itens da lista, você é levado para uma tela de detalhes que exibe o conteúdo completo da postagem, incluindo imagens, se houver. O aplicativo utiliza a biblioteca flutter_widget_from_html para renderizar o HTML das postagens.
 
 # Como usar
-Antes de executar este aplicativo, certifique-se de que você tenha um blog WordPress em execução no endereço http://localhost/wordpress/ e que esteja funcionando corretamente. Caso contrário, o aplicativo não será capaz de se comunicar com o blog e pode ocorrer erros. Verifique também se o plugin "WP REST API" está instalado e ativado em seu blog WordPress, pois ele é necessário para que o aplicativo funcione corretamente.
+Antes de executar este aplicativo, certifique-se de que você tenha um blog WordPress em execução no endereço http://localhost/wordpress/ e que esteja funcionando corretamente. Caso contrário, o aplicativo não será capaz de se comunicar com o blog e pode ocorrer erros.
 
 Clone o repositório do aplicativo:
 ```sh
